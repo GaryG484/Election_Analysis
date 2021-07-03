@@ -67,6 +67,8 @@ for candidate_name in candidate_votes:
     # Print the candidate name and percentage of votes.
     print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
 
+# 4. The total number of votes each candidate won
+
     # Determine the winning vote count and candidate
     # Determine if the votes are greater than the winning count.
     if (votes > winning_count) and (vote_percentage > winning_percentage):
@@ -77,6 +79,7 @@ for candidate_name in candidate_votes:
         # Set the winning_candidate equal to the candidate's name.
         winning_candidate = candidate_name
 
+# 5. The winner of the election based on popular vote. 
 # results summary
 winning_candidate_summary = (
     f"-------------------------\n"
@@ -96,10 +99,4 @@ with open(file_to_save, "w") as txt_file:
     txt_file.write("\nDenver ")
     txt_file.write("\nJefferson ")
 
-
-    #This needs to be indented for the code to work for some reason
-
-# 4. The total number of votes each candidate won
-
-# 5. The winner of the election based on popular vote. 
 
