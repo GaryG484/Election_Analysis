@@ -22,3 +22,5 @@
 ## Election-Audit Summary
 
 ##### With this code it would only take slight modification to change the counties it looks at to another state for a different election. It can be used to look at past election data to strategize on which counties a candidate should focus their campaigns on.  It can also be modified to look at other types of data such as a new disease spreading or how many children are being born in each county. Below is an example of what the counties will look like once they are pushed to a text file. 
+
+![Alt text](https://github.com/GaryG484/Election_Analysis/blob/main/Resources/county_results.PNG)
